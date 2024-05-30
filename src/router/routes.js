@@ -10,6 +10,10 @@ const routes = [
     path: '/saas',
     component: () => import('pages/saasPage.vue'),
   },
+  {
+    path:'/myFlowerPage',
+    component:()=>import('pages/flowerPage.vue')
+  },
 
 
   // Always leave this as last one,
